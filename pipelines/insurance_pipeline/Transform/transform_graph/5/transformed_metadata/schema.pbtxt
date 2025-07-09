@@ -1,0 +1,28 @@
+feature {
+  name: "age"
+  type: FLOAT
+}
+feature {
+  name: "bmi"
+  type: FLOAT
+}
+feature {
+  name: "charges_xf"
+  type: FLOAT
+}
+feature {
+  name: "children"
+  type: FLOAT
+}
+feature {
+  name: "region"
+  type: FLOAT
+}
+feature {
+  name: "sex"
+  type: FLOAT
+}
+feature {
+  name: "smoker"
+  type: FLOAT
+}

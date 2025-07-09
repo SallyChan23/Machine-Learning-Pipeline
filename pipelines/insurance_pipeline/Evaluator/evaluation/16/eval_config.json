@@ -1,0 +1,18 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "charges_xf"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ]
+  },
+  "version": "0.22.2",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "/app/pipelines/insurance_pipeline/Trainer/model/15/serving_model_dir"
+  }
+}

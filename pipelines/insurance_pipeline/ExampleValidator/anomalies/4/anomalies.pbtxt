@@ -1,0 +1,107 @@
+baseline {
+  feature {
+    name: "age"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+  }
+  feature {
+    name: "bmi"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+  }
+  feature {
+    name: "charges"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: FLOAT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+  }
+  feature {
+    name: "children"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: INT
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+  }
+  feature {
+    name: "region"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: BYTES
+    domain: "region"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+  }
+  feature {
+    name: "sex"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: BYTES
+    domain: "sex"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+  }
+  feature {
+    name: "smoker"
+    value_count {
+      min: 1
+      max: 1
+    }
+    type: BYTES
+    domain: "smoker"
+    presence {
+      min_fraction: 1.0
+      min_count: 1
+    }
+  }
+  string_domain {
+    name: "region"
+    value: "northeast"
+    value: "northwest"
+    value: "southeast"
+    value: "southwest"
+  }
+  string_domain {
+    name: "sex"
+    value: "female"
+    value: "male"
+  }
+  string_domain {
+    name: "smoker"
+    value: "no"
+    value: "yes"
+  }
+}
+anomaly_name_format: SERIALIZED_PATH

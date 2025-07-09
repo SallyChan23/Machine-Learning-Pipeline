@@ -1,0 +1,8 @@
+FROM --platform=linux/x86_64 python:3.7
+
+RUN mkdir -p /app/app
+RUN chmod -R a+rwx /app/app
+
+COPY . /app
+
+RUN pip install -r /app/requirements.txt
